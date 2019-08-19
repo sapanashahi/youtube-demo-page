@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input:focus{
+        background-color:green;
+        color:white;
+    }
+        .center-div{
+            margin-left:20%;
+            margin-top:10%;
+            width: 400px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-6">
+                <div class="card center-div border border-success"  style="width:400px; border-width:4px !important">
+                    <div class="card-header bg-primary">
+                        <h3 style="color:white;text-align: center">Login
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                        <p style="text-align: center">Username<input style="border-color:aqua" type="text"></p>
+                        <p style="text-align: center">Password<input style="border-color: aqua" type="password"> </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger">Cancel</button>
+                        <button class="btn btn-success float-right">Login</button>
+                    </div>
+                </div>    
+             </div>
+             <div class="col-lg-6">
+                 <div class="card center-div border border-success"  style="width:400px; border-width:4px !important">
+                     <div class="card-header bg-primary">
+                         <h3 style="color:white;text-align: center">Register
+                        </h3>
+                     </div>
+                     <div class="card-body">
+                         <p style="text-align: center">Full Name<input style="border-color: aqua" type="text"></p>
+                         <p style="text-align: center">Address<input style="border-color:aqua" type="text"></p>
+                         <p style="text-align: center">Date of Birth<input style="border-color:aqua" type="date"></p>
+                         <p style="text-align: center">Phone no.<input style="border-color:aqua" type="number"></p>
+                         <p style="text-align: center">Email<input style="border-color:aqua" type="email"></p>
+                      <p style="text-align: center">Sex:</p>
+                         <p style="text-align: center">female<input style="border-color:aqua" type="radio"></p>
+                         <p style="text-align: center">male<input style="border-color:aqua" type="radio"></p>
+                         <p style="text-align: center">others<input style="border-color:aqua" type="radio">
+                         </p>
+                        </div>
+                     <div class="card-footer ">
+                         <button class="btn btn-success">Resister</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+    
+</body>

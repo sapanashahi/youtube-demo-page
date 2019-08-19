@@ -1,0 +1,15 @@
+h3{
+    text-align: center;
+    color:blue;
+}
+#intro-text{
+    font-size: 50px;
+    color:red
+}
+div img{
+    width: 5px;
+    margin:5px;
+    float:left;
+    height:5px;
+}
+
